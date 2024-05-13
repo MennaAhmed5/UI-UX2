@@ -3,11 +3,11 @@ name: Cowsay
 on: push
 
 jobs:
-    Ascii-job: ubuntu-latest
+    Ascii_job: 
+        runs-on: ubuntu-latest
     steps:
         - name: checkout repo
           uses: actions/checkout@v4
-
 
 
         - name: install cowsay program
